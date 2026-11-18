@@ -1,4 +1,4 @@
-Hola mundo
+
 
 print("How are you");
 print ("Hola a todos");
