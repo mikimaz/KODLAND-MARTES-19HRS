@@ -5,13 +5,7 @@ public class Enemy : MonoBehaviourPunCallbacks
     [SerializeField] protected int health;
     [SerializeField] protected float attackDistance;    
     [SerializeField] protected int damage;
-    [SerializeField] protected float cooldown;
-    protected GameObject player;    
-    protected Animator anim;
-    protected Rigidbody rb;
-    protected float distance;
-    protected float timer;  
-    bool dead = false;
+    [Serial
     protected GameObject[] players;
 
     public virtual void Move() 
